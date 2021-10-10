@@ -108,7 +108,7 @@ recaptcha: {
 npm install ng-recaptcha
 ```
 
-**5.** Import the `FormsModule`, `RecaptchaFormsModule`, `RecaptchaModule` modules. Configure the Google reCAPTCHA key. Change the `app.module.ts` file and add the lines as below.
+**5.** Import the `FormsModule`, `RecaptchaV3Module` modules. Configure the Google reCAPTCHA key. Change the `app.module.ts` file and add the lines as below.
 
 ```typescript
 import { FormsModule } from '@angular/forms';
@@ -130,7 +130,7 @@ providers: [
 ],
 ```
 
-**6.** Remove the contents of the `AppComponent` class from the `src/app/app.component.ts` file. Import the `NgForm` component and create the `send` method as below.
+**6.** Remove the contents of the `AppComponent` class from the `src/app/app.component.ts` file. Import the `NgForm` component, the `ReCaptchaV3Service` service and create the `send` method as below.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -180,7 +180,7 @@ export class AppComponent {
 </div>
 ```
 
-**9.** Run the application with the command below.
+**8.** Run the application with the command below.
 
 ```shell
 npm start
@@ -208,7 +208,7 @@ Build at: 2021-10-09T22:00:31.213Z - Hash: f91dc9237b57212ebd83 - Time: 12001ms
 ✔ Compiled successfully.
 ```
 
-**10.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-recaptcha-v3/) and [Stackblitz](https://stackblitz.com/edit/angular12-recaptcha-v3).
+**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-recaptcha-v3/) and [Stackblitz](https://stackblitz.com/edit/angular12-recaptcha-v3).
 
 ![Angular Google reCAPTCHA v3](docs/images/angular-recaptcha-v3.png)
 
