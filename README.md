@@ -33,19 +33,19 @@ Before you start, you need to install and configure the tools:
 
 **1.** Let's create the account. Access the site [https://www.google.com/recaptcha/](https://www.google.com/recaptcha/) and click on the button *v3 Admin Console*.
 
-![Google reCAPTCHA - Home page](docs/images/recaptcha-step1.png)
+![Google reCAPTCHA - Home page](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step1_uwkikq.png)
 
 **2.** Fill in the field *Email or phone* and click on the button *Next* to login with your Google account and if you don't have an account, just create a new account.
 
-![Google reCAPTCHA - Sign up](docs/images/recaptcha-step2.png)
+![Google reCAPTCHA - Sign up](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step2_jy3afs.png)
 
 **3.** Click on the button *+*.
 
-![Google reCAPTCHA - Create new](docs/images/recaptcha-step3.png)
+![Google reCAPTCHA - Create new](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step3_waxzdc.png)
 
 **4.** Fill in the field *Label*, click on the option *reCAPTCHA 3*, Fill in the field *Domains*, click on the checkbox *Accept the reCAPTCHA Terms of Service* and click on the button *Submit*.
 
-![Google reCAPTCHA - Register a new site](docs/images/recaptcha-step4.png)
+![Google reCAPTCHA - Register a new site](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step4_edo7dj.png)
 
 **5.** Click on the button *COPY SITE KEY* to copy the key, in my case, the key `6Lf7UL0cAAAAAIt_m-d24WG4mA1XFPHE8yVckc5S` was copied because this key will be configured in the Angular application.
 
