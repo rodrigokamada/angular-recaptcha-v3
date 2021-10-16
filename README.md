@@ -3,7 +3,7 @@
 
 Application example built with [Angular 12](https://angular.io/) and adding the Google reCAPTCHA v3 using the [ng-recaptcha](https://www.npmjs.com/package/ng-recaptcha) library.
 
-This tutorial was posted on my [blog]() in portuguese and on the [DEV Community]() in english.
+This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/adicionando-o-google-recaptcha-v3-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/adding-the-google-recaptcha-v3-to-an-angular-application-kge) in english.
 
 
 
@@ -49,7 +49,7 @@ Before you start, you need to install and configure the tools:
 
 **5.** Click on the button *COPY SITE KEY* to copy the key, in my case, the key `6Lf7UL0cAAAAAIt_m-d24WG4mA1XFPHE8yVckc5S` was copied because this key will be configured in the Angular application.
 
-![Google reCAPTCHA - Adding reCAPTCHA to your site](docs/images/recaptcha-step5.png)
+![Google reCAPTCHA - Adding reCAPTCHA to your site](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step5_tkjuo4.png)
 
 **6.** Ready! The keys have been generated.
 
