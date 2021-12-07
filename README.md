@@ -1,7 +1,7 @@
 # Angular Google reCAPTCHA v2
 
 
-Application example built with [Angular 12](https://angular.io/) and adding the Google reCAPTCHA v3 using the [ng-recaptcha](https://www.npmjs.com/package/ng-recaptcha) library.
+Application example built with [Angular](https://angular.io/) 13 and adding the Google reCAPTCHA v3 using the [ng-recaptcha](https://www.npmjs.com/package/ng-recaptcha) library.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/adicionando-o-google-recaptcha-v3-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/adding-the-google-recaptcha-v3-to-an-angular-application-kge) in english.
 
@@ -33,23 +33,23 @@ Before you start, you need to install and configure the tools:
 
 **1.** Let's create the account. Access the site [https://www.google.com/recaptcha/](https://www.google.com/recaptcha/) and click on the button *v3 Admin Console*.
 
-![Google reCAPTCHA - Home page](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step1_uwkikq.png)
+![Google reCAPTCHA - Home page](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step1.png)
 
 **2.** Fill in the field *Email or phone* and click on the button *Next* to login with your Google account and if you don't have an account, just create a new account.
 
-![Google reCAPTCHA - Sign up](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step2_jy3afs.png)
+![Google reCAPTCHA - Sign up](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step2.png)
 
 **3.** Click on the button *+*.
 
-![Google reCAPTCHA - Create new](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step3_waxzdc.png)
+![Google reCAPTCHA - Create new](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step3.png)
 
 **4.** Fill in the field *Label*, click on the option *reCAPTCHA 3*, Fill in the field *Domains*, click on the checkbox *Accept the reCAPTCHA Terms of Service* and click on the button *Submit*.
 
-![Google reCAPTCHA - Register a new site](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step4_edo7dj.png)
+![Google reCAPTCHA - Register a new site](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step4.png)
 
 **5.** Click on the button *COPY SITE KEY* to copy the key, in my case, the key `6Lf7UL0cAAAAAIt_m-d24WG4mA1XFPHE8yVckc5S` was copied because this key will be configured in the Angular application.
 
-![Google reCAPTCHA - Adding reCAPTCHA to your site](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step5_tkjuo4.png)
+![Google reCAPTCHA - Adding reCAPTCHA to your site](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966510/Blog/angular-recaptcha-v3/recaptcha-step5.png)
 
 **6.** Ready! The keys have been generated.
 
@@ -210,7 +210,7 @@ Build at: 2021-10-09T22:00:31.213Z - Hash: f91dc9237b57212ebd83 - Time: 12001ms
 
 **9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-recaptcha-v3/) and [Stackblitz](https://stackblitz.com/edit/angular12-recaptcha-v3).
 
-![Angular Google reCAPTCHA v3](docs/images/angular-recaptcha-v3.png)
+![Angular Google reCAPTCHA v3](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966502/Blog/angular-recaptcha-v3/angular-recaptcha-v3.png)
 
 
 
