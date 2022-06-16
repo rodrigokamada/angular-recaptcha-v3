@@ -9,6 +9,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
+  declarations: [
+    AppComponent,
+  ],
   imports: [
     BrowserModule,
     FormsModule,
@@ -20,9 +23,6 @@ import { AppComponent } from './app.component';
       provide: RECAPTCHA_V3_SITE_KEY,
       useValue: environment.recaptcha.siteKey,
     },
-  ],
-  declarations: [
-    AppComponent,
   ],
   bootstrap: [
     AppComponent,

@@ -1,7 +1,7 @@
 # Angular Google reCAPTCHA v3
 
 
-Application example built with [Angular](https://angular.io/) 13 and adding the Google reCAPTCHA v3 using the [ng-recaptcha](https://www.npmjs.com/package/ng-recaptcha) library.
+Application example built with [Angular](https://angular.io/) 14 and adding the Google reCAPTCHA v3 using the [ng-recaptcha](https://www.npmjs.com/package/ng-recaptcha) library.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/adicionando-o-google-recaptcha-v3-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/adding-the-google-recaptcha-v3-to-an-angular-application-kge) in english.
 
@@ -208,7 +208,7 @@ Build at: 2021-10-09T22:00:31.213Z - Hash: f91dc9237b57212ebd83 - Time: 12001ms
 ✔ Compiled successfully.
 ```
 
-**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-recaptcha-v3/) and [Stackblitz](https://stackblitz.com/edit/angular13-recaptcha-v3).
+**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-recaptcha-v3/) and [Stackblitz](https://stackblitz.com/edit/angular14-recaptcha-v3).
 
 ![Angular Google reCAPTCHA v3](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966502/Blog/angular-recaptcha-v3/angular-recaptcha-v3.png)
 
