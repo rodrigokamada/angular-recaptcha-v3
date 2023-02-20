@@ -209,7 +209,7 @@ Build at: 2021-10-09T22:00:31.213Z - Hash: f91dc9237b57212ebd83 - Time: 12001ms
 ✔ Compiled successfully.
 ```
 
-**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-recaptcha-v3/) and [Stackblitz](https://stackblitz.com/edit/angular14-recaptcha-v3).
+**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-recaptcha-v3/) and [Stackblitz](https://stackblitz.com/edit/angular15-recaptcha-v3).
 
 ![Angular Google reCAPTCHA v3](https://res.cloudinary.com/rodrigokamada/image/upload/v1633966502/Blog/angular-recaptcha-v3/angular-recaptcha-v3.png)
 
