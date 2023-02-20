@@ -27,7 +27,7 @@
     "bootstrap-icons": "^1.10.3",
     "ng-recaptcha": "^11.0.0",
     "rxjs": "~7.8.0",
-    "tslib": "^2.4.0",
+    "tslib": "^2.5.0",
     "zone.js": "~0.11.6"
   },
   "devDependencies": {
