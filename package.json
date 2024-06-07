@@ -1,7 +1,7 @@
 {
   "name": "angular-recaptcha-v3",
   "version": "1.0.0",
-  "description": "Application example built with Angular 15 and adding the Google reCAPTCHA v3 using the ng-recaptcha library.",
+  "description": "Application example built with Angular 18 and adding the Google reCAPTCHA v3 using the ng-recaptcha library.",
   "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/rodrigokamada)",
   "license": "MIT",
   "private": true,
