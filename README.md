@@ -61,34 +61,28 @@ Before you start, you need to install and configure the tools:
 **1.** Let's create the application with the Angular base structure using the `@angular/cli` with the route file and the SCSS style format.
 
 ```powershell
-ng new angular-recaptcha-v3
-? Would you like to add Angular routing? Yes
-? Which stylesheet format would you like to use? SCSS   [ https://sass-lang.com/documentation/syntax#scss                ]
-CREATE angular-recaptcha-v3/README.md (1064 bytes)
+ng new angular-recaptcha-v3 --ssr false --routing true --style scss
+CREATE angular-recaptcha-v3/README.md (1082 bytes)
 CREATE angular-recaptcha-v3/.editorconfig (274 bytes)
-CREATE angular-recaptcha-v3/.gitignore (604 bytes)
-CREATE angular-recaptcha-v3/angular.json (3291 bytes)
-CREATE angular-recaptcha-v3/package.json (1082 bytes)
-CREATE angular-recaptcha-v3/tsconfig.json (783 bytes)
-CREATE angular-recaptcha-v3/.browserslistrc (703 bytes)
-CREATE angular-recaptcha-v3/karma.conf.js (1437 bytes)
-CREATE angular-recaptcha-v3/tsconfig.app.json (287 bytes)
-CREATE angular-recaptcha-v3/tsconfig.spec.json (333 bytes)
-CREATE angular-recaptcha-v3/src/favicon.ico (948 bytes)
-CREATE angular-recaptcha-v3/src/index.html (304 bytes)
-CREATE angular-recaptcha-v3/src/main.ts (372 bytes)
-CREATE angular-recaptcha-v3/src/polyfills.ts (2820 bytes)
+CREATE angular-recaptcha-v3/.gitignore (587 bytes)
+CREATE angular-recaptcha-v3/angular.json (2836 bytes)
+CREATE angular-recaptcha-v3/package.json (1055 bytes)
+CREATE angular-recaptcha-v3/tsconfig.json (860 bytes)
+CREATE angular-recaptcha-v3/tsconfig.app.json (263 bytes)
+CREATE angular-recaptcha-v3/tsconfig.spec.json (273 bytes)
+CREATE angular-recaptcha-v3/.vscode/extensions.json (130 bytes)
+CREATE angular-recaptcha-v3/.vscode/launch.json (470 bytes)
+CREATE angular-recaptcha-v3/.vscode/tasks.json (938 bytes)
+CREATE angular-recaptcha-v3/src/main.ts (250 bytes)
+CREATE angular-recaptcha-v3/src/index.html (307 bytes)
 CREATE angular-recaptcha-v3/src/styles.scss (80 bytes)
-CREATE angular-recaptcha-v3/src/test.ts (788 bytes)
-CREATE angular-recaptcha-v3/src/assets/.gitkeep (0 bytes)
-CREATE angular-recaptcha-v3/src/environments/environment.prod.ts (51 bytes)
-CREATE angular-recaptcha-v3/src/environments/environment.ts (658 bytes)
-CREATE angular-recaptcha-v3/src/app/app-routing.module.ts (245 bytes)
-CREATE angular-recaptcha-v3/src/app/app.module.ts (393 bytes)
 CREATE angular-recaptcha-v3/src/app/app.component.scss (0 bytes)
-CREATE angular-recaptcha-v3/src/app/app.component.html (24617 bytes)
-CREATE angular-recaptcha-v3/src/app/app.component.spec.ts (1115 bytes)
-CREATE angular-recaptcha-v3/src/app/app.component.ts (225 bytes)
+CREATE angular-recaptcha-v3/src/app/app.component.html (19903 bytes)
+CREATE angular-recaptcha-v3/src/app/app.component.spec.ts (970 bytes)
+CREATE angular-recaptcha-v3/src/app/app.component.ts (321 bytes)
+CREATE angular-recaptcha-v3/src/app/app.config.ts (310 bytes)
+CREATE angular-recaptcha-v3/src/app/app.routes.ts (77 bytes)
+CREATE angular-recaptcha-v3/public/favicon.ico (15086 bytes)
 ✔ Packages installed successfully.
     Successfully initialized git.
 ```
