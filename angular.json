@@ -75,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-recaptcha-v3:build:production"
+              "buildTarget": "angular-recaptcha-v3:build:production"
             },
             "development": {
-              "browserTarget": "angular-recaptcha-v3:build:development"
+              "buildTarget": "angular-recaptcha-v3:build:development"
             }
           },
           "defaultConfiguration": "development"
