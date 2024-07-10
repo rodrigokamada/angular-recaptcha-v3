@@ -1,15 +1,33 @@
-import { Component } from '@angular/core';
-import { NgForm } from '@angular/forms';
-import { ReCaptchaV3Service } from 'ng-recaptcha';
+import { Component, inject } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { FormsModule, NgForm } from '@angular/forms';
+import { RECAPTCHA_V3_SITE_KEY, RecaptchaV3Module, ReCaptchaV3Service } from 'ng-recaptcha';
+
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [
+    FormsModule,
+    RecaptchaV3Module,
+    RouterOutlet,
+  ],
+  providers: [
+    ReCaptchaV3Service,
+    {
+      provide: RECAPTCHA_V3_SITE_KEY,
+      useValue: environment.recaptcha.siteKey,
+    },
+  ],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
 
-  constructor(private recaptchaV3Service: ReCaptchaV3Service) {
+  recaptchaV3Service = inject(ReCaptchaV3Service);
+
+  constructor() {
   }
 
   public send(form: NgForm): void {
